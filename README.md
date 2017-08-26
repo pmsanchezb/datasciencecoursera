@@ -1,4 +1,4 @@
-# datasciencecoursera
+# Week 4 Getting and Cleaning Data
 We can divide the script in five sections: <br />
   Previous section. Load required libraries<br />
   Section 1: Load train and test data. After loading the data are merged with rbind function. <br />
