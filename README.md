@@ -1,10 +1,8 @@
-# Week 4 Getting and Cleaning Data
-We can divide the script in five sections: <br />
-  Previous section. Load required libraries<br />
-  Section 1: Load train and test data. After loading the data are merged with rbind function. <br />
-  Section 2: f function is created in order to compute the mean and sd from the merged data. It's necessary to run f 
-              prior to any analysis <br />
-  Section 3: Subjects and activities are mixed into index vector. Index vector is used for naming the rows of the merged dataset<br />
-  Section 4: With the variables names from features.txt and colnames function are assigned the variables names <br />
-  Section 5: Duplicated columns are eliminated. With the help of dplyr package is done the resume_data matrix which contains for each subject and activity the average per variable <br />
+# Exploratory Data Analysis
+Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008. <br />
+Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question. <br />
+Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer this question. <br />
+Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008? <br />
+How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City? <br />
+Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions? <br />
   
